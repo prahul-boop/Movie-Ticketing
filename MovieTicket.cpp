@@ -142,7 +142,7 @@ int main()
             cout<<"\n--------------------------------------------------------------------------------------------------------------";
             cout<<"\n\n";
             ticket1.add();
-            fout.open("newfile.txt");
+            fout.open("newfile.txt",ios::app);
             fout<<"----------------------------------------------";
             fout<<"\nTicketNumber: "<<ticket1.retticketno();
             fout<<"\nTicketcount: "<<ticket1.retticketcount();
