@@ -36,11 +36,11 @@ class ticket
 		}
 		int calculate()
 		{
-			if(movie == "beast")
+			if(movie == "endgame")
 			{
 				return ticket_count*100;
 			}
-			if(movie == "maanaadu")
+			if(movie == "kesari")
 			{
 				return ticket_count*120;
 			}
@@ -108,7 +108,7 @@ int main()
     	cout<<"Enter Password: ";
     	cin>>password;
     	
-    	if(username == "Muhesh" && password == "sumusa69")
+    	if(username == "Rahul" && password == "Luhar87")
     	{
     		cout<<"\nLogin Successful!!";
     		goto menu;
